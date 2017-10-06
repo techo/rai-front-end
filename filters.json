@@ -1,0 +1,1927 @@
+[
+  {
+    "title": "DINÁMICAS TERRITORIALES",
+    "category": null,
+    "subcategory": null,
+    "item": "Nuevos",
+    "rules": [
+      {
+        "field": "identificar_2",
+        "operator": "equ",
+        "value": "asentamiento informal nuevo"
+      }
+    ]
+  },
+  {
+    "title": "DINÁMICAS TERRITORIALES",
+    "category": null,
+    "subcategory": null,
+    "item": "Accedieron a Servicios/Titularidad",
+    "rules": [
+      {
+        "field": "por_que_parte_del_asentamiento_quedo_fuera_del_relevamiento_respuesta_multiple_",
+        "operator": "equ",
+        "value": "el barrio tiene 2 o 3 servicios y fue registrado en el 2013"
+      }
+    ]
+  },{
+    "title": "DINÁMICAS TERRITORIALES",
+    "category": null,
+    "subcategory": null,
+    "checked": true,
+    "item": "No Accedieron a Servicios/Titularidad",
+    "rules": [
+      {
+        "field": "identificar",
+        "operator": "equ",
+        "value": "cumple con la definición"
+      }
+    ]
+  },
+  {
+    "title": "TIPO DE BARRIO",
+    "category": null,
+    "subcategory": null,
+    "item": "Asentamiento",
+    "rules": [
+      {
+        "field": "tipo_de_barrio",
+        "operator": "equ",
+        "value": "asentamiento"
+      }
+    ]
+  },
+  {
+    "title": "TIPO DE BARRIO",
+    "category": null,
+    "subcategory": null,
+    "item": "Villa",
+    "rules": [
+      {
+        "field": "tipo_de_barrio",
+        "operator": "equ",
+        "value": "villa"
+      }
+    ]
+  },
+  {
+    "title": "TIPO DE BARRIO",
+    "category": null,
+    "subcategory": null,
+    "item": "Barrio popular informal",
+    "rules": [
+      {
+        "field": "tipo_de_barrio",
+        "operator": "equ",
+        "value": "barrio popular informal"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Energía Eléctrica",
+    "item": "Red pública con medidores domiciliarios",
+    "rules": [
+      {
+        "field": "luz",
+        "operator": "equ",
+        "value": "red pública con medidores domiciliarios. (cada familia con su factura, con su propio medidor)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Energía Eléctrica",
+    "item": "Red pública con medidor comunitario/social",
+    "rules": [
+      {
+        "field": "luz",
+        "operator": "equ",
+        "value": "red pública con medidor comunitario / social. (no hay facturas individuales, no hay un medidor por familia, sino uno o varios medidores para muchas familias)."
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Energía Eléctrica",
+    "item": "Conexión irregular a la red pública",
+    "rules": [
+      {
+        "field": "luz",
+        "operator": "equ",
+        "value": "conexión irregular a la red pública. (enganchados a la red, cables a los postes de luz de la calle, de una familia a otra, etc)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Energía Eléctrica",
+    "item": "No tiene",
+    "rules": [
+      {
+        "field": "luz",
+        "operator": "equ",
+        "value": "no tiene"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Energía Eléctrica",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "luz",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Agua corriente de red pública",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "agua corriente de red pública (cada vecino con su factura, con su propio medidor de agua en el frente de cada vivienda)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Conexión irregular a la red pública",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "conexión irregular a la red pública (hecha por los vecinos, sin pagar factura / chapita de agua, generalmente mediante mangueras)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Perforación / Pozo",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "perforación / pozo (cada familia tiene su propio pozo)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Tanque comunitario",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "tanque comunitario (tanque de agua la que estan conectados los vecinos)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Camión Cisterna",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "camión cisterna (no hay conexión de ningún tipo, un camión abastece de agua)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Agua Potable",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "agua",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Eliminación de Excretas",
+    "item": "Red cloacal pública",
+    "rules": [
+      {
+        "field": "excretas",
+        "operator": "equ",
+        "value": "red cloacal pública (conexión formal a cada domicilio, exclusivo para la eliminación de excretas)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Eliminación de Excretas",
+    "item": "Red cloacal conectada al pluvial, al desagüe de lluvia",
+    "rules": [
+      {
+        "field": "excretas",
+        "operator": "equ",
+        "value": "red cloacal pública conectada al pluvial, al desagüe de lluvia (conexión formal pero conectada con el alcantarillado o desagüe pluvial)."
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Eliminación de Excretas",
+    "item": "Desagüe a cámara séptica y pozo ciego",
+    "rules": [
+      {
+        "field": "excretas",
+        "operator": "equ",
+        "value": "desagüe a cámara séptica y pozo ciego"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Eliminación de Excretas",
+    "item": "Desagüe sólo a pozo negro / ciego u hoyo, excavación a tierra",
+    "rules": [
+      {
+        "field": "excretas",
+        "operator": "equ",
+        "value": "desagüe sólo a pozo negro / ciego u hoyo, excavación a tierra"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Eliminación de Excretas",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "excretas",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "Gas natural de red pública",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "gas natural de red pública"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "Gas en garrafa",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "gas en garrafa"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "Leña o carbón",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "leña o carbón"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "Energía eléctrica ( calentador/horno eléctrico)",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "energía eléctrica ( calentador/horno eléctrico)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "No tiene",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "no tiene"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para cocinar",
+    "item": "No sabe / No responde",
+    "rules": [
+      {
+        "field": "energia_cocinar",
+        "operator": "equ",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "Gas natural de red pública",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "gas natural de red pública"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "Gas en garrafa",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "gas en garrafa"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "Leña o carbón",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "leña o carbón"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "Energía eléctrica ( calentador/estufa eléctrica)",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "energía eléctrica ( calentador/estufa eléctrico)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "No tiene",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "no tiene"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS BÁSICOS",
+    "category": null,
+    "subcategory": "Gas para calefacción",
+    "item": "No sabe / No responde",
+    "rules": [
+      {
+        "field": "energia_calefaccion",
+        "operator": "equ",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Policía",
+    "item": "Siempre",
+    "rules": [
+      {
+        "field": "emergencias_policia",
+        "operator": "equ",
+        "value": "siempre"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Policía",
+    "item": "A veces",
+    "rules": [
+      {
+        "field": "emergencias_policia",
+        "operator": "equ",
+        "value": "a veces"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Policía",
+    "item": "Nunca",
+    "rules": [
+      {
+        "field": "emergencias_policia",
+        "operator": "equ",
+        "value": "nunca"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Bomberos",
+    "item": "Siempre",
+    "rules": [
+      {
+        "field": "emergencias_bomberos",
+        "operator": "equ",
+        "value": "siempre"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Bomberos",
+    "item": "A veces",
+    "rules": [
+      {
+        "field": "emergencias_bomberos",
+        "operator": "equ",
+        "value": "a veces"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Bomberos",
+    "item": "Nunca",
+    "rules": [
+      {
+        "field": "emergencias_bomberos",
+        "operator": "equ",
+        "value": "nunca"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Ambulancia",
+    "item": "Siempre",
+    "rules": [
+      {
+        "field": "emergencias_ambulancia",
+        "operator": "equ",
+        "value": "siempre"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Ambulancia",
+    "item": "A veces",
+    "rules": [
+      {
+        "field": "emergencias_ambulancia",
+        "operator": "equ",
+        "value": "a veces"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Ingreso de servicios de emergencia",
+    "subcategory": "Ambulancia",
+    "item": "Nunca",
+    "rules": [
+      {
+        "field": "emergencias_ambulancia",
+        "operator": "equ",
+        "value": "nunca"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Plantación forestal",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "plantacion_forestal",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Plantación forestal",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "plantacion_forestal",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Plantación forestal",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "plantacion_forestal",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Plantación forestal",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "plantacion_forestal",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Plantación forestal",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "plantacion_forestal",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Ribera de río / canal",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "ribera_rio",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Ribera de río / canal",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "ribera_rio",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Ribera de río / canal",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "ribera_rio",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Ribera de río / canal",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "ribera_rio",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Ribera de río / canal",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "ribera_rio",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Pendiente",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "pendiente",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Pendiente",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "pendiente",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Pendiente",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "pendiente",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Pendiente",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "pendiente",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Pendiente",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "pendiente",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Basural",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "basural",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Basural",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "basural",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Basural",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "basural",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Basural",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "basural",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Basural",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "basural",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Torres de alta tensión",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "torres_de_alta_tension",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Torres de alta tensión",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "torres_de_alta_tension",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Torres de alta tensión",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "torres_de_alta_tension",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Torres de alta tensión",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "torres_de_alta_tension",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Torres de alta tensión",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "torres_de_alta_tension",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Línea de tren",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "linea_de_tren",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Línea de tren",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "linea_de_tren",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Línea de tren",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "linea_de_tren",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Línea de tren",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "linea_de_tren",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Línea de tren",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "linea_de_tren",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Camino de alto tráfico",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "camino_de_alto_trafico",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Camino de alto tráfico",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "camino_de_alto_trafico",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Camino de alto tráfico",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "camino_de_alto_trafico",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Camino de alto tráfico",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "camino_de_alto_trafico",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Camino de alto tráfico",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "camino_de_alto_trafico",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Desechos industriales",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "desechos_industriales",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Desechos industriales",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "desechos_industriales",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Desechos industriales",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "desechos_industriales",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Desechos industriales",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "desechos_industriales",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Desechos industriales",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "desechos_industriales",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Actividad agropecuaria",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "actividad_agropecuaria",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Actividad agropecuaria",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "actividad_agropecuaria",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Actividad agropecuaria",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "actividad_agropecuaria",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Actividad agropecuaria",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "actividad_agropecuaria",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Actividad agropecuaria",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "actividad_agropecuaria",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Relleno sanitario",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "relleno_sanitario",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Relleno sanitario",
+    "item": "A menos de 10 mts",
+    "rules": [
+      {
+        "field": "relleno_sanitario",
+        "operator": "equ",
+        "value": "a menos de 10 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Relleno sanitario",
+    "item": "A menos de 50 mts",
+    "rules": [
+      {
+        "field": "relleno_sanitario",
+        "operator": "equ",
+        "value": "a menos de 50 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Relleno sanitario",
+    "item": "A menos de 100 mts",
+    "rules": [
+      {
+        "field": "relleno_sanitario",
+        "operator": "equ",
+        "value": "a menos de 100 mts"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Relleno sanitario",
+    "item": "No se encuentra cerca del barrio",
+    "rules": [
+      {
+        "field": "relleno_sanitario",
+        "operator": "equ",
+        "value": "no se encuentra cerca del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Inundación",
+    "item": "Cada vez que llueve fuerte (muchas veces por año)",
+    "rules": [
+      {
+        "field": "inundaciones",
+        "operator": "equ",
+        "value": "cada vez que llueve fuerte (muchas veces por año)"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Inundación",
+    "item": "Solamente cuando diluvia (una o dos veces por año)",
+    "rules": [
+      {
+        "field": "inundaciones",
+        "operator": "equ",
+        "value": "solamente cuando diluvia (una o dos veces por año)"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Inundación",
+    "item": "Todo, o gran parte, del barrio",
+    "rules": [
+      {
+        "field": "inundaciones",
+        "operator": "equ",
+        "value": "todo, o gran parte, del barrio"
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Inundación",
+    "item": "No sabe / no responde",
+    "rules": [
+      {
+        "field": "inundaciones",
+        "operator": "equ",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "title": "EMERGENCIAS / RIESGO",
+    "category": "Emplazamiento de Riesgo",
+    "subcategory": "Inundación",
+    "item": "Otro",
+    "rules": [
+      {
+        "field": "inundaciones",
+        "operator": "equ",
+        "value": "otro"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a Jardín de infantes estatal",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "jardin_de_infantes",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a Jardín de infantes estatal",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "jardin_de_infantes",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a Jardín de infantes estatal",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "jardin_de_infantes",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a Jardín de infantes estatal",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "jardin_de_infantes",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a Jardín de infantes estatal",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "jardin_de_infantes",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a primaria estatal",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "escuela_primaria",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a primaria estatal",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "escuela_primaria",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a primaria estatal",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "escuela_primaria",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a primaria estatal",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "escuela_primaria",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a primaria estatal",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "escuela_primaria",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a secundaria estatal",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "escuela_secundaria",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a secundaria estatal",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "escuela_secundaria",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a secundaria estatal",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "escuela_secundaria",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a secundaria estatal",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "escuela_secundaria",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "EDUCACIÓN",
+    "subcategory": "Distancia a secundaria estatal",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "escuela_secundaria",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a salita médica",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "sala_medica",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a salita médica",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "sala_medica",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a salita médica",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "sala_medica",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a salita médica",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "sala_medica",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a salita médica",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "sala_medica",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a hospital público",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "hospital",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a hospital público",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "hospital",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a hospital público",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "hospital",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a hospital público",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "hospital",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "SALUD",
+    "subcategory": "Distancia a hospital público",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "hospital",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "TRANSPORTE",
+    "subcategory": "Distancia a parada de transporte público",
+    "item": "Dentro del barrio",
+    "rules": [
+      {
+        "field": "parada_transporte_publico",
+        "operator": "equ",
+        "value": "dentro del barrio"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "TRANSPORTE",
+    "subcategory": "Distancia a parada de transporte público",
+    "item": "A menos de 10 cuadras (1 Km)",
+    "rules": [
+      {
+        "field": "parada_transporte_publico",
+        "operator": "equ",
+        "value": "a menos de 10 cuadras (1 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "TRANSPORTE",
+    "subcategory": "Distancia a parada de transporte público",
+    "item": "Entre 11 y 30 cuadras (1-3 Km)",
+    "rules": [
+      {
+        "field": "parada_transporte_publico",
+        "operator": "equ",
+        "value": "entre 11 y 30 cuadras(1 y 3 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "TRANSPORTE",
+    "subcategory": "Distancia a parada de transporte público",
+    "item": "Entre 31 y 50 cuadras (3-5 Km)",
+    "rules": [
+      {
+        "field": "parada_transporte_publico",
+        "operator": "equ",
+        "value": "entre 31 y 50 cuadras(3 y 5 km)"
+      }
+    ]
+  },
+  {
+    "title": "SERVICIOS SOCIALES",
+    "category": "TRANSPORTE",
+    "subcategory": "Distancia a parada de transporte público",
+    "item": "Más de 50 cuadras (+ 5 Km)",
+    "rules": [
+      {
+        "field": "parada_transporte_publico",
+        "operator": "equ",
+        "value": "más de 50 cuadras(+5 km)"
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Alcantarillado público",
+    "item": "Sí, provistos por el estado",
+    "rules": [
+      {
+        "field": "alcantarillado",
+        "operator": "equ",
+        "value": "si, provistos por el estado."
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Alcantarillado público",
+    "item": "Sí, hecho por los vecinos",
+    "rules": [
+      {
+        "field": "alcantarillado",
+        "operator": "equ",
+        "value": "si, hechos por los vecinos."
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Alcantarillado público",
+    "item": "No",
+    "rules": [
+      {
+        "field": "alcantarillado",
+        "operator": "equ",
+        "value": "no"
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Calles asfaltadas",
+    "item": "Si",
+    "rules": [
+      {
+        "field": "asfalto",
+        "operator": "equ",
+        "value": "sí"
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Calles asfaltadas",
+    "item": "No",
+    "rules": [
+      {
+        "field": "asfalto",
+        "operator": "equ",
+        "value": "no"
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Antes de 1973",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lt",
+        "value": 1973
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Desde 1973 a 1982",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "gte",
+        "value": 1973
+      },
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lte",
+        "value": 1982
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Desde 1983 a 1992",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "gte",
+        "value": 1983
+      },
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lte",
+        "value": 1992
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Desde 1993 a 2002",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "gte",
+        "value": 1993
+      },
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lte",
+        "value": 2002
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Desde 2003 a 2012",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "gte",
+        "value": 2003
+      },
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lte",
+        "value": 2012
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Fecha de conformación",
+    "item": "Desde 2013 a 2016",
+    "rules": [
+      {
+        "field": "anio_creo_barrio",
+        "operator": "gte",
+        "value": 2013
+      },
+      {
+        "field": "anio_creo_barrio",
+        "operator": "lte",
+        "value": 2016
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Tamaño",
+    "item": "Pequeño: De 8 a 100 familias",
+    "rules": [
+      {
+        "field": "cantidad_de_familias",
+        "operator": "gte",
+        "value": 8
+      },
+      {
+        "field": "cantidad_de_familias",
+        "operator": "lte",
+        "value": 100
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Tamaño",
+    "item": "Mediano: De 101 a 500 familias",
+    "rules": [
+      {
+        "field": "cantidad_de_familias",
+        "operator": "gte",
+        "value": 101
+      },
+      {
+        "field": "cantidad_de_familias",
+        "operator": "lte",
+        "value": 500
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Tamaño",
+    "item": "Grande: 501 a 1500 familias",
+    "rules": [
+      {
+        "field": "cantidad_de_familias",
+        "operator": "gte",
+        "value": 501
+      },
+      {
+        "field": "cantidad_de_familias",
+        "operator": "lte",
+        "value": 1500
+      }
+    ]
+  },
+  {
+    "title": "INFRAESTRUCTURA",
+    "category": null,
+    "subcategory": "Tamaño",
+    "item": "Macro: Más de 1501 familias",
+    "rules": [
+      {
+        "field": "cantidad_de_familias",
+        "operator": "gte",
+        "value": 1501
+      }
+    ]
+  }
+]

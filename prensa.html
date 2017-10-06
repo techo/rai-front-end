@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Techo</title>
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style_interna.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/responsive_inst.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/techo.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- END: STYLESHEET -->
+
+<!-- SET: SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.selectpicker').selectpicker();
+      $('nav').clone().appendTo('.mobile_menu');
+      $('.nav-icon').click(function(e) {
+        $(this).toggleClass('open');
+        $('body').toggleClass('menu_open');
+      });
+      $.ajax({ url: "http://104.131.188.104/paginas-ajax/4571"}).done(function(response) {
+        $('.banner.banner_2').html(response.nodes[0].node.Body);
+        $( "#descargarPrensa" ).click(function() {
+          window.location = 'archivos/brochure_rai_2016.pdf';
+        });
+      });
+
+    });
+    footerheight();
+    function footerheight(){
+      var f_hgt = $('footer').height();
+      $('.push').height(f_hgt);
+      $('.wrapper').css({'margin-bottom': -f_hgt + 'px'});
+    }
+    $(window).load(function(e) {
+            footerheight();
+        });
+
+    $(window).resize(function(e) {
+            footerheight();
+        });
+  </script>
+    <script>
+// FOR Equalheight --------------------------
+equalheight = function(container){
+var currentTallest = 0,
+     currentRowStart = 0,
+     rowDivs = new Array(),
+     $el,
+     topPosition = 0;
+ $(container).each(function() {
+
+   $el = $(this);
+   $($el).height('auto')
+   topPostion = $el.position().top;
+
+   if (currentRowStart != topPostion) {
+     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+       rowDivs[currentDiv].height(currentTallest);
+     }
+     rowDivs.length = 0; // empty the array
+     currentRowStart = topPostion;
+     currentTallest = $el.height();
+     rowDivs.push($el);
+   } else {
+     rowDivs.push($el);
+     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+  }
+   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+     rowDivs[currentDiv].height(currentTallest);
+   }
+ });
+}
+$(window).load(function() {  equalheight(' .ehgt'); });
+$(window).resize(function(){  equalheight(' .ehgt'); });
+$(document).ready(function(){  equalheight(' .ehgt'); });
+</script>
+
+<!-- END: SCRIPTS -->
+</head>
+
+<body>
+<div class="mobile_menu">
+  <nav>
+    <ul>
+      <li><a href="index.html">Mapa</a></li>
+      <li><a href="nosotros.html">¿Qué es TECHO?</a></li>
+      <li><a href="metodologia.html">Metodología</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="prensa.html">Sala de Prensa</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="overlay"></div>
+<!-- wrapper starts -->
+<div class="wrapper">
+    <!-- Header Starts -->
+  <header>
+    <div class="nav-icon"><span></span><span></span><span></span></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2"><a href="#" id="logo"><img width="93" src="images/logo.png" alt=""></a></div>
+        <div class="col-sm-8">
+          <div id="nav">
+            <ul>
+              <li><a href="index.html">Mapa</a></li>
+              <li><a href="nosotros.html">¿Qué es TECHO?</a></li>
+              <li><a href="metodologia.html">Metodología</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <li><a href="prensa.html">Sala de Prensa</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <span class="clear"></span>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="social pull-right">
+            <ul>
+              <li><a href="https://www.facebook.com/TECHOargentina" target="_blank"><b><i class="icon-facebook icon"></i></b></a></li>
+              <li><a href="https://twitter.com/TECHOarg" target="_blank"><b><i class="icon-twitter icon"></i></b></a>
+              </li>
+            </ul>
+            <span class="clear"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- Header ends -->
+    <!-- banner Starts -->
+    <div class="banner banner_2">
+        <div class="banner_cnt">
+          <div class="banner_text">
+              <div class="banner_text_cnt">
+                    <div class="banner_in">
+                        <div class="banner_info">
+                            <small>01.11.16</small>
+                            <h2>1 de cada 10 personas vive en asentamientos informales, según el relevamiento 2016 de TECHO</h2>
+                            <span>El informe contiene información sobre villas y asentamientos de Buenos Aires, Ciudad de Buenos Aires, Córdoba, Santa Fe, Salta, Tucumán, Corrientes, Chaco, Neuquén, Río Negro y Misiones. Detalla la cantidad de familias, el acceso a servicios básicos y la participación comunitaria, entre otros.</span>
+                        </div>
+                        <div class="dnw_links">
+                          <ul>
+                          <script>
+                          $(document).ready(function(){
+                            $( "#descargarPrensa" ).click(function() {
+                              window.location = 'archivos/gacetilla.docx';
+                            });
+
+                          });
+                          </script>
+                                <li><input name="dwn_btn" class="dwn_btn" id="descargarPrensa" value="Descargar" type="button"></li>
+                                <!--<li><a href="#"></a></li>-->
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="banner_add">
+                                <h2>Contacto prensa</h2>
+                                <h3>M.Cecilia Suarez, jefa de prensa</h3>
+                                <a href="mailto:cecilia.suarez@techo.org">cecilia.suarez@techo.org</a>
+                                <span>(011)153-048-7044/(011) 155-108-0377</span>
+                            </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner Ends -->
+    <!-- maincontent Starts -->
+
+    <!-- aincontent ends -->
+    <div class="push"></div>
+</div>
+<!-- wrapper ends -->
+    <!-- footer starts -->
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="footer_in">
+                    <div class="footer_lft">
+                        <div class="footer_logo">
+                            <a href="#"><img src="images/footer_logo.png" width="83" height="22" alt="footer_logo"></a>
+                        </div>
+                        <a href="#">techo.org.ar</a>
+                    </div>
+                    <div class="footer_rgt">
+                        <div class="footer_icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/TECHOargentina" target="_blank"></a></li>
+                                <li><a href="https://twitter.com/TECHOarg" target="_blank" class="twt"></a></li>
+                                <div class="winguLogo"><a href="http://www.winguweb.org" target='_blank'><img src="images/text1.png" width="150px"></img></a></div>
+
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="footer_mid">
+                        <div class="address">
+                            <ul>
+                                <li><p>Venezuela 1302</p></li>
+                                <li><p>(011) 4382-0607 / 4382-0676</p></li>
+                                <li><p>Ciudad Autonoma de Buenos Aires</p></li>
+                                <li><a href="mailto:cis.argentina@techo.org">cis.argentina@techo.org</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p>Accede a los términos y condiciones del uso del relevamiento <a class="linkAcaFooter" href="terminos.html">acá</a>.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+</body>
+</html>

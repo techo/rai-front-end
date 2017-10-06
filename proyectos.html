@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Techo</title>
+
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<!-- END: FAVICON -->
+
+<!-- SET: STYLESHEET -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style_interna.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/responsive_inst.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/techo.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- END: STYLESHEET -->
+
+<!-- SET: SCRIPTS -->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $('.selectpicker').selectpicker();
+      $('nav').clone().appendTo('.mobile_menu');
+      $('.nav-icon').click(function(e) {
+        $(this).toggleClass('open');
+        $('body').toggleClass('menu_open');
+      });
+      $.ajax({ url: "http://104.131.188.104/paginas-ajax/4570"}).done(function(response) { $('.contenedorInnProyectos').html(response.nodes[0].node.Body); });
+    });
+    footerheight();
+    function footerheight(){
+      var f_hgt = $('footer').height();
+      $('.push').height(f_hgt);
+      $('.wrapper').css({'margin-bottom': -f_hgt + 'px'});
+    }
+    $(window).load(function(e) {
+            footerheight();
+        });
+
+    $(window).resize(function(e) {
+            footerheight();
+        });
+  </script>
+    <script>
+// FOR Equalheight --------------------------
+equalheight = function(container){
+var currentTallest = 0,
+     currentRowStart = 0,
+     rowDivs = new Array(),
+     $el,
+     topPosition = 0;
+ $(container).each(function() {
+
+   $el = $(this);
+   $($el).height('auto')
+   topPostion = $el.position().top;
+
+   if (currentRowStart != topPostion) {
+     for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+       rowDivs[currentDiv].height(currentTallest);
+     }
+     rowDivs.length = 0; // empty the array
+     currentRowStart = topPostion;
+     currentTallest = $el.height();
+     rowDivs.push($el);
+   } else {
+     rowDivs.push($el);
+     currentTallest = (currentTallest < $el.height()) ? ($el.height()) : (currentTallest);
+  }
+   for (currentDiv = 0 ; currentDiv < rowDivs.length ; currentDiv++) {
+     rowDivs[currentDiv].height(currentTallest);
+   }
+ });
+}
+$(window).load(function() {  equalheight(' .ehgt'); });
+$(window).resize(function(){  equalheight(' .ehgt'); });
+$(document).ready(function(){  equalheight(' .ehgt'); });
+</script>
+
+<!-- END: SCRIPTS -->
+</head>
+
+<body>
+<div class="mobile_menu">
+  <nav>
+    <ul>
+      <li><a href="index.html">Mapa</a></li>
+      <li><a href="nosotros.html">¿Qué es TECHO?</a></li>
+      <li><a href="metodologia.html">Metodología</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="prensa.html">Sala de Prensa</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="overlay"></div>
+<!-- wrapper starts -->
+<div class="wrapper">
+    <!-- Header Starts -->
+  <header>
+    <div class="nav-icon"><span></span><span></span><span></span></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2"><a href="#" id="logo"><img width="93" src="images/logo.png" alt=""></a></div>
+        <div class="col-sm-8">
+          <div id="nav">
+            <ul>
+              <li><a href="index.html">Mapa</a></li>
+              <li><a href="nosotros.html">¿Qué es TECHO?</a></li>
+              <li><a href="metodologia.html">Metodología</a></li>
+              <li><a href="proyectos.html">Proyectos</a></li>
+              <li><a href="prensa.html">Sala de Prensa</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <span class="clear"></span>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="social pull-right">
+            <ul>
+              <li><a href="https://www.facebook.com/TECHOargentina" target="_blank"><b><i class="icon-facebook icon"></i></b></a></li>
+              <li><a href="https://twitter.com/TECHOarg" target="_blank"><b><i class="icon-twitter icon"></i></b></a>
+              </li>
+            </ul>
+            <span class="clear"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- Header ends -->
+    <!-- banner Starts -->
+
+
+<!--
+ <div class="banner banner_2">
+        <div class="banner_cnt">
+-->
+			    	<div class="contenedorInnProyectos col-md-12 col-sm-12 col-lg-12"><!--
+
+
+              <div class="col-md-1 col-sm-1 col-lg-1">
+              </div>
+
+              <div class="col-md-5 col-sm-5 col-lg-5 columnaProyectos">
+                <div class="contenedorBloqueProyecto col-md-12">
+                  <div class="contenedorBloqueProyectoInn">
+                    <div class="titleProyecto">Relevamiento de asentamientos informales 2013</div>
+                    <div class="bodyProyecto">Informe que identifica, caracteriza y georreferencia los asentamientos informales en las ciudades donde TECHO trabaja, realizado en el año 2013.</div>
+                    <div class="linkDescargaProyecto"><a class="botonDescargaProyecto col-md-6" href="https://issuu.com/techoargentina/docs/relevamientos_de_asentamientos_2013">Ver Proyecto</a></div>
+                  </div>
+                </div>
+
+                <div class="contenedorBloqueProyecto col-md-12">
+                  <div class="contenedorBloqueProyectoInn">
+                    <div class="titleProyecto">Evaluación de impacto de la vivienda</div>
+                    <div class="bodyProyecto">Evaluación cuantitativa sobre el impacto de la vivienda de emergencia que construye TECHO junto a vecinos de asentamientos informales</div>
+                      <div class="linkDescargaProyecto"><a class="botonDescargaProyecto col-md-6" href="https://issuu.com/techoargentina/docs/informe_final_evaluaci__n_de_impact">Ver Proyecto</a></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5 col-sm-5 col-lg-5 columnaProyectos">
+                <div class="contenedorBloqueProyecto col-md-12">
+                  <div class="contenedorBloqueProyectoInn">
+                    <div class="titleProyecto">Voces de los adolescentes</div>
+                    <div class="bodyProyecto">Un estudio sobre cómo viven y qué piensan chicos, chicas y adolescentes de entre 12 y 16 años, que residen en villas y asentamientos de la Ciudad Autónoma de Buenos Aires y el conurbano bonaerense como insumo para el diseño, la implementación y evaluación de políticas públicas. </div>
+                      <div class="linkDescargaProyecto"><a class="botonDescargaProyecto col-md-6" href="https://issuu.com/techoargentina/docs/lasvoces_techo_unicef_web2">Ver Proyecto</a></div>
+                  </div>
+                </div>
+
+                <div class="contenedorBloqueProyecto col-md-12">
+                  <div class="contenedorBloqueProyectoInn">
+                    <div class="titleProyecto">Índice de vulnerabilidad territorial</div>
+                    <div class="bodyProyecto">Este índice pretende establecer grados de vulnerabilidad relativa de asentamientos informales, profundizando en la multidimensionalidad del hábitat, considerando variables de accesibilidad e infraestructura  (próximamente en web).</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-1 col-sm-1">
+              </div>
+
+
+            --></div>
+<!--
+
+			    </div>
+        </div>
+-->
+    <!-- banner Ends -->
+
+    <div class="push"></div>
+</div>
+<!-- wrapper ends -->
+    <!-- footer starts -->
+  <footer class="footerEspecial">
+      <div class="container">
+          <div class="row">
+              <div class="footer_in">
+                    <div class="footer_lft">
+                        <div class="footer_logo">
+                            <a href="#"><img src="images/footer_logo.png" width="83" height="22" alt="footer_logo"></a>
+                        </div>
+                        <a href="#">techo.org.ar</a>
+                    </div>
+                    <div class="footer_rgt">
+                        <div class="footer_icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/TECHOargentina" target="_blank"></a></li>
+                                <li><a href="https://twitter.com/TECHOarg" target="_blank" class="twt"></a></li>
+                                <div class="winguLogo"><a href="http://www.winguweb.org" target='_blank'><img src="images/text1.png" width="150px"></img></a></div>
+
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="footer_mid">
+                        <div class="address">
+                            <ul>
+                                <li><p>Venezuela 1302</p></li>
+                                <li><p>(011) 4382-0607 / 4382-0676</p></li>
+                                <li><p>Ciudad Autonoma de Buenos Aires</p></li>
+                                <li><a href="mailto:cis.argentina@techo.org">cis.argentina@techo.org</a></li>
+                            </ul>
+                            <div class="clearfix"></div>
+                        </div>
+                        <p>Accede a los términos y condiciones del uso del relevamiento <a class="linkAcaFooter" href="terminos.html">acá</a>.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+</body>
+</html>
