@@ -99,9 +99,11 @@ function centerZone(zones) {
   var zonesArray = getNeighbors(zones);
   var zonesArrayCoords = Object.keys(zonesArray).map(function (index) {
     var poligono = zonesArray[index].poligono
-    if (!poligono) return [];
+    if (!poligono || poligono == "POLYGON EMPTY") return [];
     var geojson = wellknown.parse(poligono);
-    return _(geojson.coordinates[0]).slice(0,-1).map(function(coord){ return [ coord[1], coord[0] ]; });
+    if (geojson.type == "MultiPolygon")
+        return geojson.coordinates.map(function (p) { return p[0].splice(-1,1).map( function (c) { return [c[1], c[0]] }) });
+    return geojson.coordinates[0].splice(-1,1).map(function(coord){ return [ coord[1], coord[0] ]; });
   })
 
   var multiPolygon = L.polygon(zonesArrayCoords);
